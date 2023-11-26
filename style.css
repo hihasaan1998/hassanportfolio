@@ -326,3 +326,17 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+.container {
+  width: 90%; /* Example of using percentage width */
+  margin: 0 auto; /* Center the container */
+}
+
+/* For larger screens */
+@media screen and (min-width: 768px) {
+  /* Your CSS styles for larger screens */
+}
+
+/* For smaller screens */
+@media screen and (max-width: 767px) {
+  /* Your CSS styles for smaller screens */
+}
